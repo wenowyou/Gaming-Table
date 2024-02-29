@@ -2440,7 +2440,7 @@ void game_STOP_AND_GO() {
 }
 
 
-void follow_path_player(){
+/*void follow_path_player(){
   nunchuck1.readData();
   led.setPixelColor(start_position+follow_direction, led.Color(255,255,255));
   if(nunchuck1.getJoyX() < 80){
@@ -2472,7 +2472,7 @@ void game_FOLLOW_PATH(){
     follow_path_player();
     led.show();
   }
-}
+}*/
 
 
 
@@ -2528,6 +2528,6 @@ void loop() {
   game_COIN_COLLECT();
   game_JUMP_AND_RUN();
   game_STOP_AND_GO();
-  game_FOLLOW_PATH();
+  //game_FOLLOW_PATH();
   standby_Timer++;
 }
