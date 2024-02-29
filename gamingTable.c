@@ -6,12 +6,6 @@
 /*****************************************/
 /*****************************************/
 
-//Integration Wii NUNCHUK
-//https://www.makerblog.at/2016/01/wii-nunchuk-controller-am-arduino-teil-1/
-//https://learn.adafruit.com/adafruit-wii-nunchuck-breakout-adapter/arduino-use
-//https://github.com/madhephaestus/WiiChuck/blob/master/src/Nunchuck.h  
-//
-
 //**NUNCHUCKS**//
 Accessory nunchuck1;
 Accessory nunchuck2;
@@ -275,7 +269,7 @@ int ran_path_num = 0;
 int easter_counter = 0;
 
 
-Adafruit_NeoPixel led(MAXLED, LED_PIN, NEO_GRB + NEO_KHZ800);  // Wird benötigt um die Adafruit Library (#include <Adafruit_NeoPixel.h>) zu benutzen...https://adafruit.github.io/Adafruit_NeoPixel/html/class_adafruit___neo_pixel.html
+Adafruit_NeoPixel led(MAXLED, LED_PIN, NEO_GRB + NEO_KHZ800);  // Wird benötigt um die Adafruit Library (#include <Adafruit_NeoPixel.h>) zu benutzen...
 
 
 
